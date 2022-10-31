@@ -3,7 +3,7 @@ layout: page
 title: Hypothalamus
 permalink: /Hypothalamus.html
 ref: MH_data
-order: 0
+order: 2
 ---
 
 
