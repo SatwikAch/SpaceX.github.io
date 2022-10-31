@@ -1,5 +1,7 @@
 ---
 layout: default
+title: SpaceX
+description: Gene Co-expression Network Estimation for Spatial Transcriptomics
 ---
 
 # Method Overview
