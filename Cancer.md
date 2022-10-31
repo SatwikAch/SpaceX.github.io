@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Breast_Cancer_Data
-permalink: /Breast_Cancer_Data.html
+permalink: /Cancer.html
 ref: BC_data
 order: 0
 ---

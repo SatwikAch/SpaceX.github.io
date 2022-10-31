@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Mouse_Hypothalamus_Data
-permalink: /Hypothalamus_Data.html
+title: Hypothalamus
+permalink: /Hypothalamus.html
 ref: MH_data
 order: 1
 ---
