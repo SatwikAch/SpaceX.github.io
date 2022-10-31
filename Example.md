@@ -1,8 +1,11 @@
 ---
 layout: page
 title: Example
-description: ~
+permalink: /Example.html
+ref: Example
+order: 0
 ---
+
 
 ### Data inputs
 
@@ -53,3 +56,5 @@ BC_fit <- SpaceX(BC_count,BC_loc[,1:2],BC_loc[,3],sPMM=FALSE,Post_process = TRUE
 # Shared_network :: Shared co-expression matrix
 # Cluster_network :: Cluster specific co-expression matrices
 ```
+
+[Go to the Home Page]({{ '/' | absolute_url }})

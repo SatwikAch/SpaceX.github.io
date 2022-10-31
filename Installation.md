@@ -1,8 +1,11 @@
 ---
 layout: page
 title: Installation
-description: ~
+permalink: /Installation.html
+ref: Installation
+order: 1
 ---
+
 
 This package requires a Fortran compiler in order to work. Here are the instructions:
 
@@ -34,3 +37,5 @@ devtools::install_github("SatwikAch/SpaceX")
 library(SpaceX)
 #> Loading required package: PQLseq
 ```
+
+[Go to the Home Page]({{ '/' | absolute_url }})
