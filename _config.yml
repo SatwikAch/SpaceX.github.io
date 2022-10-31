@@ -14,3 +14,5 @@ kramdown:
 exclude:
   - LICENSE.md
   - README.md
+
+header_page_refs: ['Installation', 'Example']
