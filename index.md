@@ -1,11 +1,5 @@
 ---
-layout: full
-homepage: yes
-disable_anchors: yes
-description: "Gene Co-expression Network Estimation for Spatial Transcriptomics"
-output:
-  html_document:
-    df_print: paged
+layout: default
 ---
 
 ## SpaceX Overview
