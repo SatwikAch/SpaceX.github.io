@@ -1,34 +1,34 @@
 remote_theme: allejo/jekyll-docs-theme
 name: SpaceX
 
-project:
-  version: 1.0.0
-  download_url: https://github.com/SatwikAch/SpaceX
-  download_text: Download
+# project:
+#   version: 1.0.0
+#   download_url: https://github.com/SatwikAch/SpaceX
+#   download_text: Download
 
 license:
   software: GNU License 3.0
   software_url: https://www.gnu.org/licenses/licenses.en.html
 
-links:
-  header:
-    - title: GitHub
-      icon: github
-      brand: true
-      url: https://github.com/SatwikAch/SpaceX
-  homepage:
-    - title: View on GitHub
-      icon: github
-      brand: true
-      url: https://github.com/SatwikAch/SpaceX
-  footer:
-    - title: GitHub
-      icon: github
-      brand: true
-      url: https://github.com/SatwikAch/SpaceX
-    - title: Issues
-      icon: bug
-      url: https://github.com/bayesrx/SpaceX/issues
+#links:
+#  header:
+#    - title: GitHub
+#      icon: github
+#      brand: true
+#      url: https://github.com/SatwikAch/SpaceX
+#  homepage:
+#    - title: View on GitHub
+#      icon: github
+#      brand: true
+#      url: https://github.com/SatwikAch/SpaceX
+#  footer:
+#    - title: GitHub
+#      icon: github
+#      brand: true
+#      url: https://github.com/SatwikAch/SpaceX
+#    - title: Issues
+#      icon: bug
+#      url: https://github.com/bayesrx/SpaceX/issues
 
 ui:
   mode: 'auto' # 'auto', 'dark', 'light'
