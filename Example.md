@@ -3,6 +3,7 @@ layout: page
 title: Example
 permalink: /Example.html
 ref: Example
+order: 1
 ---
 
 ### Data inputs
