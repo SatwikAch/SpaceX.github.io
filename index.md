@@ -2,6 +2,8 @@
 layout: default
 ---
 
+ABC
+
 # Method Overview
 
 ![SpaceXpipeline](SpaceX_Overview.jpg) The SpaceX (**spa**tially dependent gene **c**o-**ex**pression network) is a Bayesian methodology to identify both shared and cluster-specific co-expression network across genes. These clusters can be cell type specific or based on spatial regions. SpaceX uses an over-dispersed spatial Poisson model coupled with a high-dimensional factor model which is based on a dimension reduction technique for computational efficiency.

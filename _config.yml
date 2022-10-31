@@ -3,49 +3,6 @@ title: [SpaceX]
 description: Gene Co-expression Network Estimation for Spatial Transcriptomics
 
 
-license:
-  software: GNU License 3.0
-  software_url: https://www.gnu.org/licenses/licenses.en.html
-
-
-ui:
-  mode: 'auto' # 'auto', 'dark', 'light'
-  brand:
-    dark: "#00ceff"
-    light: "#a20000"
-  border_color:
-    dark: "#5f5f5f"
-    light: "#dee2e6"
-  header:
-    trianglify: true
-    dark:
-      color1: "#062a48"
-      color2: "#304e67"
-    light:
-      color1: "#080331"
-      color2: "#673051"
-  masthead:
-    color:
-      dark: "#fff"
-      light: "#fff"
-    align:
-      homepage: 'center'
-      page: 'left'
-
-social:
-  github:
-    user: SatwikAch
-    repo: SpaceX
-  twitter:
-    enabled: false
-    via:
-    hash:
-    account:
-  facebook:
-    enabled: false
-    profileUrl:
-
-
 # Build settings
 markdown: kramdown
 exclude:
