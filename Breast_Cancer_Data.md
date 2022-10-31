@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Breast Cancer Data
+title: Breast_Cancer_Data
 permalink: /Breast_Cancer_Data.html
 ref: BC_data
 order: 0

@@ -1,7 +1,7 @@
 theme: jekyll-theme-cayman
 title: SpaceX
 
-header_page_refs: ['Installation', 'Example', 'Mouse Hypothalamus Data','Breast Cancer Data']
+header_page_refs: ['Installation', 'Example', 'Mouse_Hypothalamus_Data','Breast_Cancer_Data']
 
 # Build settings
 markdown: kramdown
