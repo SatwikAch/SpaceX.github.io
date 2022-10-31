@@ -4,6 +4,8 @@ title: SpaceX
 
 # Build settings
 markdown: kramdown
+kramdown:
+    math_engine:    katex
 exclude:
   - LICENSE.md
   - README.md
