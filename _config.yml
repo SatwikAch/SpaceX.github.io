@@ -1,11 +1,16 @@
 theme: jekyll-theme-cayman
 title: SpaceX
 
+left:
+    - text: "Installation"
+      href: Installation.html
+    - text: "Example"
+      href: Example.html
 
 # Build settings
 markdown: kramdown
 kramdown:
-    math_engine:    katex
+    math_engine:  katex
 exclude:
   - LICENSE.md
   - README.md
