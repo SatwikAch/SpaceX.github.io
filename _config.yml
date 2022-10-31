@@ -1,11 +1,7 @@
 theme: jekyll-theme-cayman
 title: SpaceX
 
-left:
-    - text: "Installation"
-      href: Installation.html
-    - text: "Example"
-      href: Example.html
+header_page_refs: ['Installation', 'Example']
 
 # Build settings
 markdown: kramdown
@@ -15,4 +11,3 @@ exclude:
   - LICENSE.md
   - README.md
 
-header_page_refs: ['Installation', 'Example']

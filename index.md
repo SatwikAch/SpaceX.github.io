@@ -1,5 +1,5 @@
 ---
-layout: SA_SpaceX
+layout: home
 title: SpaceX
 description: Gene Co-expression Network Estimation for Spatial Transcriptomics
 ---
@@ -13,4 +13,5 @@ The Figure above shows the overall conceptual flow of our pipeline. **Panel A** 
 [Installation](./Installation.html)
 
 [Example](./Example.html)
+
 
