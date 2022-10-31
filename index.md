@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: SA_SpaceX
 title: SpaceX
 description: Gene Co-expression Network Estimation for Spatial Transcriptomics
 ---
