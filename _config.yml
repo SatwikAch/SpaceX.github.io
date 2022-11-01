@@ -5,14 +5,14 @@ title: SpaceX
 #email: your-email@domain.com
 #description: >
 #  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/bulma-clean-theme"
-url: "https://www.csrhymes.com"
+#baseurl: "/bulma-clean-theme"
+#url: "https://www.csrhymes.com"
 permalink: pretty
 #favicon: /path/to/favicon.png
 #gh_sponsor: chrisrhymes
 #hide_share_buttons: true
 #theme_color: '#eeeeee'
-#fixed_navbar: top
+fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
 
 paginate: 5
@@ -52,22 +52,22 @@ sass:
 
 #google_analytics: UA-code-here
 
-# defaults:
-#   -
-#     scope:
-#       path: ""
-#       type: "pages"
-#     values:
-#       show_sidebar: true
-#   -
-#     scope:
-#       path: ""
-#       type: "posts"
-#     values:
-#       author: "C.S. Rhymes"
-#       layout: post
-#       image: https://via.placeholder.com/1200x800
-#       show_sidebar: true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "C.S. Rhymes"
+      layout: post
+      image: https://via.placeholder.com/1200x800
+      show_sidebar: true
 
 markdown: kramdown
 highlighter: rouge
