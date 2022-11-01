@@ -5,6 +5,7 @@ menubar: docs_menu
 show_sidebar: false
 ---
 
+
 This package requires a Fortran compiler in order to work. Here are the instructions:
 
 -   Windows: install the Rtools package that is appropriate for your
@@ -37,4 +38,3 @@ library(SpaceX)
 ```
 
 [Go to the Home Page]({{ '/' | absolute_url }})
-
