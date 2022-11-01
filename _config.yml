@@ -74,7 +74,7 @@ kramdown:
     math_engine:  katex
 
 
-footer_menu: example_footer_menu
+#footer_menu: example_footer_menu
 
 collections:
   products:
