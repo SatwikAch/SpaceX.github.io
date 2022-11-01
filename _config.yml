@@ -1,7 +1,7 @@
 # Site Settings
 lang: en
 title: SpaceX
-tagline: SpaceX
+#tagline: SpaceX
 description: >
   Gene Co-expression Network Estimation for Spatial Transcriptomics
 #baseurl: "/bulma-clean-theme"
@@ -51,22 +51,22 @@ sass:
 
 #google_analytics: UA-code-here
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      show_sidebar: true
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      author: "C.S. Rhymes"
-      layout: post
-      image: https://via.placeholder.com/1200x800
-      show_sidebar: true
+#defaults:
+#  -
+#    scope:
+#      path: ""
+#      type: "pages"
+#    values:
+#      show_sidebar: true
+#  -
+#    scope:
+#      path: ""
+#      type: "posts"
+#    values:
+#      author: "C.S. Rhymes"
+#      layout: post
+#      image: https://via.placeholder.com/1200x800
+#      show_sidebar: true
 
 markdown: kramdown
 highlighter: rouge
