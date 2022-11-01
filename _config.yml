@@ -6,7 +6,7 @@ description: >
   Gene Co-expression Network Estimation for Spatial Transcriptomics
 #baseurl: "/bulma-clean-theme"
 #url: "https://www.csrhymes.com"
-permalink: pretty
+#permalink: pretty
 #favicon: /path/to/favicon.png
 #gh_sponsor: chrisrhymes
 #hide_share_buttons: true
@@ -51,13 +51,13 @@ sass:
 
 #google_analytics: UA-code-here
 
-#defaults:
-#  -
-#    scope:
-#      path: ""
-#      type: "pages"
-#    values:
-#      show_sidebar: true
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
 #  -
 #    scope:
 #      path: ""
