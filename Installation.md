@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Installation
-menubar: docs_menu
-show_sidebar: false
+permalink: /Installation.html
+ref: Installation
+order: 2
 ---
 
 

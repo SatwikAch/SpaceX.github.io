@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Example
-menubar: docs_menu
-show_sidebar: false
+permalink: /Example.html
+ref: Example
+order: 0
 ---
-
 
 ### Data inputs
 
