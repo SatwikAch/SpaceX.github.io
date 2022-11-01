@@ -1,7 +1,5 @@
-- name: Installation
-  link: /Installation/
-- name: Example
-  link: /Example/
+- name: Docs
+  link: /docs/
 - name: Example Pages
   link: /#
   dropdown:
