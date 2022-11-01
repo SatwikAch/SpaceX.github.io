@@ -2,8 +2,8 @@
 title: SpaceX
 subtitle: Gene Co-expression Network Estimation for Spatial Transcriptomics
 layout: page
-#callouts: home_callouts
-#show_sidebar: true
+callouts: home_callouts
+show_sidebar: true
 ---
 
 # Method Overview
