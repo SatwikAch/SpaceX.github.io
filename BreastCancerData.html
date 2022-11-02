@@ -11,7 +11,7 @@
 
 
 
-<title>Example</title>
+<title>Breast Cancer Data</title>
 
 <script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -246,28 +246,28 @@ $(document).ready(function () {
   <a href="index.html"></a>
 </li>
 <li>
-  <a href="01_installation.html">Installation</a>
+  <a href="installation.html">Installation</a>
 </li>
 <li>
-  <a href="02_example.html">Example</a>
+  <a href="example.html">Example</a>
 </li>
 <li>
-  <a href="03_Hypothalamus_Data.html">Hypothalamus Data</a>
+  <a href="HypothalamusData.html">Hypothalamus Data</a>
 </li>
 <li>
-  <a href="04_Breast_Cancer_Data.html">Breast Cancer Data</a>
+  <a href="BreastCancerData.html">Breast Cancer Data</a>
 </li>
 <li>
-  <a href="05_Supplemental_file.html">Supplemental_file</a>
+  <a href="SupplementalFile.html">Supplemental file</a>
 </li>
 <li>
-  <a href="06_Contact.html">Contact</a>
+  <a href="Contact.html">Contact</a>
 </li>
 <li>
-  <a href="07_Github.html">Github</a>
+  <a href="Github.html">Github</a>
 </li>
 <li>
-  <a href="08_Acknowledgement.html">Acknowledgement</a>
+  <a href="Acknowledgement.html">Acknowledgement</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -281,66 +281,30 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Example</h1>
+<h1 class="title toc-ignore">Breast Cancer Data</h1>
 
 </div>
 
 
-<div id="data-inputs" class="section level3">
-<h3>Data inputs</h3>
-<p>The first input is <strong>Gene_expression_mat</strong> which is
-<span class="math inline">\(N \times G\)</span> dataframe. Here <span
-class="math inline">\(N\)</span> denotes the number of spatial locations
-and <span class="math inline">\(G\)</span> denotes number of genes.</p>
-<p>The second input is <strong>Spatial_locations</strong> is a dataframe
-which contains spatial coordinates.</p>
-<p>The third input is <strong>Cluster_annotations</strong>.</p>
-<p>The fourth input is <strong>sPMM</strong>. If TRUE, the code will
-return the estimates of sigma1_sq and sigma2_sq from the spatial Poisson
-mixed model.</p>
-<p>The fifth input is <strong>Post_process</strong>. If FALSE, the code
-will return the posterior samples of <span
-class="math inline">\(\Phi\)</span> and <span
-class="math inline">\(\Psi^c\)</span> (based on definition in equation 1
-of the SpaceX paper) only. Default is TRUE and the code will return all
-the posterior samples, shared and cluster specific co-expressions.</p>
-<p>The final input is <strong>numCore</strong>. The number of requested
-cores for parallel computing and default is set to be 1.</p>
-</div>
-<div id="output" class="section level3">
-<h3>Output</h3>
-<p>You will obtain a list of objects as output.</p>
-<p><strong>Posterior_samples</strong> contains all the posterior
-samples.</p>
-<p><strong>Shared_network</strong> provides the shared co-expression
-matrix (transformed correlation matrix of <span
-class="math inline">\(G_{s} = \Phi \Phi^{T}\)</span>).</p>
-<p><strong>Cluster_network</strong> provides the cluster specific
-co-expression matrices (transformed correlation matrices of <span
-class="math inline">\(G_{c} = \Phi \Phi^{T} + \Psi^{c}
-{\Psi^{c^{T}}}\)</span>).</p>
-</div>
-<div id="example" class="section level3">
-<h3>Example</h3>
-<p>Here we provide an example to run the SpaceX method.</p>
-<pre class="r"><code># Reading the Breast cancer data
-
-# Spatial locations
-head(BC_loc)
-
-# Gene expression for data
-head(BC_count) 
-
-# Data processing
-G &lt;-dim(BC_count)[2] # number of genes
-N &lt;-dim(BC_count)[1] # number of locations</code></pre>
-<p>Next, we’ll apply the SpaceX method on the Breast cancer dataset.</p>
-<pre class="r"><code># Application to SpaceX method
-BC_fit &lt;- SpaceX(BC_count,BC_loc[,1:2],BC_loc[,3],sPMM=FALSE,Post_process = TRUE, numCore=2)
-
-# Shared_network :: Shared co-expression matrix
-# Cluster_network :: Cluster specific co-expression matrices</code></pre>
-</div>
+<p>The human breast cancer data was collected by biopsy of a tissue
+sectioned at a thickness of <span class="math inline">\(16\mu\)</span>m
+with visium technique. You can access the data <a
+href="https://github.com/bayesrx/SpaceX/tree/main/data">here</a> (Ståhl
+et al., 2016). The locations are seperated into three spatially
+contiguous clusters, including tumor, intermediate, and normal with the
+following cluster sizes 114, 67, and 69 spots respectively. The
+expression levels are measured from <span
+class="math inline">\(5262\)</span> genes at <span
+class="math inline">\(250\)</span> spot locations and we used the SPARK
+method (Sun et al., 2020) with <span class="math inline">\(5\%\)</span>
+FDR cut-off on p-values to detect <span
+class="math inline">\(290\)</span> spatially expressed genes for this
+analysis. The SpaceX method is applied on the breast cancer data to
+obtain shared and cluster specific co-expression networks. Downstream
+analysis on these networks helped us to identify shared and cluster
+specific hub genes. Please see the video below for more details.</p>
+<p><video src="BC.mp4" style="width:100.0%" controls=""><a
+href="BC.mp4">Video</a></video></p>
 
 
 

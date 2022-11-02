@@ -11,7 +11,7 @@
 
 
 
-<title>Installation</title>
+<title>Hypothalamus Data</title>
 
 <script src="site_libs/header-attrs-2.17/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
@@ -246,28 +246,28 @@ $(document).ready(function () {
   <a href="index.html"></a>
 </li>
 <li>
-  <a href="01_installation.html">Installation</a>
+  <a href="installation.html">Installation</a>
 </li>
 <li>
-  <a href="02_example.html">Example</a>
+  <a href="example.html">Example</a>
 </li>
 <li>
-  <a href="03_Hypothalamus_Data.html">Hypothalamus Data</a>
+  <a href="HypothalamusData.html">Hypothalamus Data</a>
 </li>
 <li>
-  <a href="04_Breast_Cancer_Data.html">Breast Cancer Data</a>
+  <a href="BreastCancerData.html">Breast Cancer Data</a>
 </li>
 <li>
-  <a href="05_Supplemental_file.html">Supplemental_file</a>
+  <a href="SupplementalFile.html">Supplemental file</a>
 </li>
 <li>
-  <a href="06_Contact.html">Contact</a>
+  <a href="Contact.html">Contact</a>
 </li>
 <li>
-  <a href="07_Github.html">Github</a>
+  <a href="Github.html">Github</a>
 </li>
 <li>
-  <a href="08_Acknowledgement.html">Acknowledgement</a>
+  <a href="Acknowledgement.html">Acknowledgement</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -281,41 +281,34 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Installation</h1>
+<h1 class="title toc-ignore">Hypothalamus Data</h1>
 
 </div>
 
 
-<p>This package requires a Fortran compiler in order to work. Here are
-the instructions:</p>
-<ul>
-<li><p>Windows: install the Rtools package that is appropriate for your
-version of R</p></li>
-<li><p>Mac: Go to this website and follow the instructions: (<a
-href="https://mac.R-project.org/tools/"
-class="uri">https://mac.R-project.org/tools/</a>)</p></li>
-<li><p>Linux: From a terminal, do the following:
-<code>sudo apt install gcc</code>. That will bring in multiple
-compilers.</p></li>
-</ul>
-<div id="dependencies" class="section level4">
-<h4>1. Dependencies</h4>
-<p>The package requires a dependency that is not available on CRAN.
-Install it with:</p>
-<pre class="r"><code>remotes::install_github(&quot;rdevito/MSFA&quot;)</code></pre>
-</div>
-<div id="install-spacex" class="section level4">
-<h4>2. Install <code>SpaceX</code></h4>
-<p>You can install the released version of SpaceX from (<a
-href="https://github.com/SatwikAch/SpaceX"
-class="uri">https://github.com/SatwikAch/SpaceX</a>) with:</p>
-<pre class="r"><code>devtools::install_github(&quot;SatwikAch/SpaceX&quot;)</code></pre>
-</div>
-<div id="load-package" class="section level4">
-<h4>3. Load package</h4>
-<pre class="r"><code>library(SpaceX)
-#&gt; Loading required package: PQLseq</code></pre>
-</div>
+<p>Using the MERFISH technique, this dataset is collected from the
+preoptic region of the mouse hypothalamus, which regulates many social
+behaviors (Moffitt et al., 2018). The MERFISH technique measures gene
+expression of single cells for different cell types, providing insights
+into the spatial organization of cells in the tissue. The dataset
+consists of <span class="math inline">\(160\)</span> genes and the
+corresponding gene expressions are measured across <span
+class="math inline">\(4812\)</span> spatial locations. These cells have
+been annotated into 7 different cell types (size) namely astrocyte <span
+class="math inline">\((724)\)</span>, endothelial cells <span
+class="math inline">\((503)\)</span>, ependymal cells <span
+class="math inline">\((314)\)</span>, excitatory neurons <span
+class="math inline">\((1024)\)</span>, inhibitory neurons <span
+class="math inline">\((1694)\)</span>, immature neurons <span
+class="math inline">\((168)\)</span>, and mature neurons <span
+class="math inline">\((385)\)</span>. You can access the data <a
+href="https://github.com/xzhoulab/SPARK-Analysis/tree/master/processed_data">here</a>.
+We apply the SpaceX method to obatin shared and cell-type specific
+co-expression networks. Next, we identify conserved and cell-type
+specfic hub genes based on the co-expression netwroks. Please see the
+video below for more details on the analysis.</p>
+<p><video src="MH.mp4" style="width:100.0%" controls=""><a
+href="MH.mp4">Video</a></video></p>
 
 
 

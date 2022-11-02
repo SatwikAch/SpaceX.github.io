@@ -6,21 +6,21 @@ navbar:
     - text: ""
       href: index.html
     - text: "Installation"
-      href: 01_installation.html
+      href: installation.html
     - text: "Example"
-      href: 02_example.html
+      href: example.html
     - text: "Hypothalamus Data"
-      href: 03_Hypothalamus_Data.html
+      href: HypothalamusData.html
     - text: "Breast Cancer Data"
-      href: 04_Breast_Cancer_Data.html
-    - text: "Supplemental_file"
-      href: 05_Supplemental_file.html
+      href: BreastCancerData.html
+    - text: "Supplemental file"
+      href: SupplementalFile.html
     - text: "Contact"
-      href: 06_Contact.html
+      href: Contact.html
     - text: "Github"
-      href: 07_Github.html
+      href: Github.html
     - text: "Acknowledgement"
-      href: 08_Acknowledgement.html
+      href: Acknowledgement.html
 
 output:
   html_document:
