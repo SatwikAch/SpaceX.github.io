@@ -1,0 +1,29 @@
+name: "my-website"
+output_dir: "."
+navbar:
+  title: "SpaceX"
+  left:
+    - text: ""
+      href: index.html
+    - text: "Installation"
+      href: 01_installation.html
+    - text: "Example"
+      href: 02_example.html
+    - text: "Hypothalamus Data"
+      href: 03_Hypothalamus_Data.html
+    - text: "Breast Cancer Data"
+      href: 04_Breast_Cancer_Data.html
+    - text: "Supplemental_file"
+      href: 05_Supplemental_file.html
+    - text: "Contact"
+      href: 06_Contact.html
+    - text: "Github"
+      href: 07_Github.html
+    - text: "Acknowledgement"
+      href: 08_Acknowledgement.html
+
+output:
+  html_document:
+    theme: flatly
+
+
